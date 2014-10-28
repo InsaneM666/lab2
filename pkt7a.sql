@@ -1,0 +1,1 @@
+SELECT ProductName AS 'Produkt', UnitPrice AS 'Cena wieksza od sredniej' FROM Products WHERE UnitPrice>(SELECT AVG(UnitPrice) FROM Products)

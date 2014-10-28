@@ -1,0 +1,1 @@
+SELECT SUM(Freight) AS 'Suma frachtu' FROM Orders
